@@ -1,0 +1,10 @@
+import pandas
+filmes = pandas.read_csv('movies.csv')
+avaliacao = pandas.read_csv('ratings.csv')
+filmes_avaliacao = avaliacao.merge(filmes,on='movieId')
+print(filmes_avaliacao.head()) 
+del filmes_avaliacao['wovieId']
+
+filmes_pivot = filmes_avaliacao.pivot_table(columns='userId',index='title',values='rating')
+#filmes_pivot = filmes_pivot.fillna(0)
+print(filmes_pivot)
