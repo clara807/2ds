@@ -1,0 +1,7 @@
+tempocasa = 13
+if tempocasa <= 5:
+    print("aumento do vale refeição")
+elif tempocasa > 5 and tempocasa <= 10:
+    print ("reajuste de 10% no salário")
+elif tempocasa > 10 and tempocasa <= 15:
+    print("participação na festa de comemoração")
