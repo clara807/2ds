@@ -1,0 +1,36 @@
+def menu_principal():
+    resposta = input("Selecione 'i' para industrial, 'c' para comércio ou 'r' para residência: ").strip().lower()
+    if resposta == "i":
+        menu_industrial()
+    elif resposta == "c":
+        menu_comercial()
+    elif resposta == "r":
+        menu_residencial()
+    else:
+        print("Opção inválida. Tente novamente.")
+
+def menu_industrial():
+    limite_kwh = 5000
+    consumo = int(input("Quantidade de KWh consumida: "))
+    if consumo <= limite_kwh:
+        print("Preço a ser pago é R$ 0,55 por KWh.")
+    else:
+        print("Preço a ser pago é R$ 0,60 por KWh.")
+
+def menu_comercial():
+    limite_kwh = 1000
+    consumo = int(input("Quantidade de KWh consumida: "))
+    if consumo <= limite_kwh:
+        print("Preço a ser pago é R$ 0,55 por KWh.")
+    else:
+        print("Preço a ser pago é R$ 0,60 por KWh.")
+
+def menu_residencial():
+    limite_kwh = 500
+    consumo = int(input("Quantidade de KWh consumida: "))
+    if consumo <= limite_kwh:
+        print("Preço a ser pago é R$ 0,40 por KWh.")
+    else:
+        print("Preço a ser pago é R$ 0,65 por KWh.")
+
+menu_principal()
