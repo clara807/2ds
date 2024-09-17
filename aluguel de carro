@@ -1,0 +1,8 @@
+km_percorrido = float(input("escreva a quantidade de km percorrido"))
+dias = int(input("dias alugados"))
+
+custo_km = 0.15 * km_percorrido
+custo_dias = 60 * dias
+
+custo_total = custo_km + custo_dias
+print(custo_total)
