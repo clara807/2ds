@@ -1,6 +1,6 @@
 nota_1 = int(input("digite uma nota"))
 nota_2 = int(input("digite uma nota"))
 nota_3 = int(input("digite uma nota"))
-resultado = nota_1 + nota_2 = nota_3
+resultado = nota_1 + nota_2 + nota_3
 media = (resultado / 3)
 print (f"sua media é {media}")
