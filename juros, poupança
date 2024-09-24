@@ -1,0 +1,8 @@
+deposito_inicial = float(input("deposito inicial"))
+taxa = float(input("digite a taxa de juros em porcentagem"))
+meses = int(input("escreva o numero de messes, o limite são 24 meses"))
+poupança = taxa * meses
+if meses > 24:
+    print("ultrapassou o limite")
+elif poupança > 24:
+    print (f'ganho total do mês{poupança}')
