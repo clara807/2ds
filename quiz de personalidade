@@ -1,0 +1,18 @@
+print("quiz de personalidade")
+resposta_1 = int(input("você se considera uma pessoa  1 inteligente  2 confiante  ou  3 bobinha"))
+resposta_2 = int(input("você é se considera uma pessoa  1 rabugenta  2 mandona  ou  3 abestaiada"))
+resposta_3 = int(input("se você pudesse escolher, você escolheria tem 1  super velocidade  2  falar com animais  3  soprar gelo"))
+if resposta_1 == 3 and resposta_2 == 3 and resposta_3 == 2:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 2 and resposta_2 == 3 and resposta_3 == 2:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 3 and resposta_2 == 1 and resposta_3 == 2:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 3 and resposta_2 == 3 and resposta_3 == 1:
+    print("parabéns você é a lindinha")
+
+elif resposta_1 == 1 and resposta_2 == 2 and resposta_3 == 3:
+    print("parabéns você é a florzinha")
+
+elif resposta_1 == 2 and resposta_2 == 1 and resposta_3 == 1:
+    print("parabéns você é a docinho")
