@@ -10,9 +10,53 @@ elif resposta_1 == 3 and resposta_2 == 1 and resposta_3 == 2:
     print("parabéns você é a lindinha")
 elif resposta_1 == 3 and resposta_2 == 3 and resposta_3 == 1:
     print("parabéns você é a lindinha")
+elif resposta_1 == 1 and resposta_2 == 3 and resposta_3 == 3:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 3 and resposta_2 == 3 and resposta_3 == 3:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 3 and resposta_2 == 2 and resposta_3 == 2:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 1 and resposta_2 == 3 and resposta_3 == 2:
+    print("parabéns você é a lindinha")
+elif resposta_1 == 1 and resposta_2 == 3 and resposta_3 == 1:
+    print("parabéns você é a lindinha")
+
 
 elif resposta_1 == 1 and resposta_2 == 2 and resposta_3 == 3:
     print("parabéns você é a florzinha")
+elif resposta_1 == 2 and resposta_2 == 2 and resposta_3 == 3:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 2 and resposta_2 == 1 and resposta_3 == 3:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 2 and resposta_2 == 2 and resposta_3 == 1:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 1 and resposta_2 == 1 and resposta_3 == 2:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 1 and resposta_2 == 1 and resposta_3 == 3:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 1 and resposta_2 == 2 and resposta_3 == 2:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 2 and resposta_2 == 2 and resposta_3 == 2:
+    print("parabéns você é a florzinha")
+elif resposta_1 == 1 and resposta_2 == 2 and resposta_3 == 1:
+    print("parabéns você é a florzinha")
+
 
 elif resposta_1 == 2 and resposta_2 == 1 and resposta_3 == 1:
+    print("parabéns você é a docinho")
+elif resposta_1 == 1 and resposta_2 == 1 and resposta_3 == 1:
+    print("parabéns você é a docinho")
+elif resposta_1 == 2 and resposta_2 == 3 and resposta_3 == 1:
+    print("parabéns você é a docinho")
+elif resposta_1 == 2 and resposta_2 == 3 and resposta_3 == 3:
+    print("parabéns você é a docinho")
+elif resposta_1 == 3 and resposta_2 == 1 and resposta_3 == 1:
+    print("parabéns você é a docinho")
+elif resposta_1 == 3 and resposta_2 == 2 and resposta_3 == 1:
+    print("parabéns você é a docinho")
+elif resposta_1 == 3 and resposta_2 == 1 and resposta_3 == 3:
+    print("parabéns você é a docinho")
+elif resposta_1 == 2 and resposta_2 == 1 and resposta_3 == 2:
+    print("parabéns você é a docinho")
+elif resposta_1 == 3 and resposta_2 == 2 and resposta_3 == 3:
     print("parabéns você é a docinho")
