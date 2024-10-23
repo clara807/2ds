@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot</title>
+    
+    </style>
+</head>
+<body>
+    <div class="box-question">
+      <div class="header"
+    </div>
+        <h2><center>chatbot</center></h2>
+      </div
+      <p id="status"></p>
+      <div id="historic">
+    </div>
+    <did class="footer">
+      <input type="text" placeholder="escolha um tema..." id="message-input">
+      <button id="btn-submit" onclick="sendMessage()">Enviar</button>
+    </did>
+</body>
+<script src="main.js"></script>
+</html>
